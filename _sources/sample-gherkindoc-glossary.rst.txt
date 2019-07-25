@@ -1,0 +1,101 @@
+Sample Gherkin Glossary
+=======================
+
+- :term:`Encarnaciooooon`
+- :term:`I put \<thing\> in a blender`
+- :term:`I turn the blender on`
+- :term:`a step with some text`
+- :term:`a test feature`
+- :term:`all the children are gone`
+- :term:`an And step with some text too`
+- :term:`another indented thing happened`
+- :term:`doodle-doodle-doodle-doo`
+- :term:`how about a table in there too`
+- :term:`it should transform into \<other thing\>`
+- :term:`something deep inside me`
+- :term:`something else that IS indented`
+- :term:`something indented also happened`
+- :term:`something not indented`
+- :term:`something not indented happened`
+- :term:`something not indented happens`
+- :term:`step text`
+- :term:`that this file exists`
+- :term:`the fantasy has ended`
+- :term:`the file is converted into rST`
+- :term:`the suite reaches a scenario`
+- :term:`the suite reaches a scenario table`
+
+.. glossary::
+    the file is converted into rST
+        | tests/basic.feature 15, 41
+        | tests/tags.feature 16
+
+    that this file exists
+        | tests/basic.feature 6
+        | tests/tags.feature 7
+
+    a test feature
+        | tests/basic.feature 13
+        | tests/tags.feature 14
+
+    the suite reaches a scenario
+        | tests/basic.feature 14
+        | tests/tags.feature 15
+
+    I put \<thing\> in a blender
+        | tests/basic.feature 19
+
+    I turn the blender on
+        | tests/basic.feature 20
+
+    it should transform into \<other thing\>
+        | tests/basic.feature 21
+
+    step text
+        | tests/basic.feature 32
+
+    the suite reaches a scenario table
+        | tests/basic.feature 36
+
+    something not indented
+        | tests/basic.feature 45
+
+    something else that IS indented
+        | tests/basic.feature 46
+
+    something not indented happens
+        | tests/basic.feature 47
+
+    something not indented happened
+        | tests/basic.feature 48
+
+    something indented also happened
+        | tests/basic.feature 49
+
+    another indented thing happened
+        | tests/basic.feature 50
+
+    a step with some text
+        | tests/basic.feature 54
+
+    an And step with some text too
+        | tests/basic.feature 58
+
+    how about a table in there too
+        | tests/basic.feature 62
+
+    the fantasy has ended
+        | tests/basic.feature 67
+
+    all the children are gone
+        | tests/basic.feature 68
+
+    something deep inside me
+        | tests/basic.feature 69
+
+    Encarnaciooooon
+        | tests/basic.feature 73
+
+    doodle-doodle-doodle-doo
+        | tests/basic.feature 74
+

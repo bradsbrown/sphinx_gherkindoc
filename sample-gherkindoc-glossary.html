@@ -1,0 +1,398 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Sample Gherkin Glossary &mdash; sphinx-gherkindoc 3.2.5 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/graphviz.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Maintainer’s Documentation" href="MAINTAINER.html" />
+    <link rel="prev" title="Feature: Integrated Backgrounds With Unique Format" href="unique_format.integrated_backgrounds_with_unique_format.feature-file.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> sphinx-gherkindoc
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                3.2.5
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Library</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="sphinx_gherkindoc.html">sphinx_gherkindoc package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="sphinx_gherkindoc.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sphinx_gherkindoc.html#module-sphinx_gherkindoc.cli">sphinx_gherkindoc.cli module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sphinx_gherkindoc.html#module-sphinx_gherkindoc.files">sphinx_gherkindoc.files module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sphinx_gherkindoc.html#module-sphinx_gherkindoc.glossary">sphinx_gherkindoc.glossary module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sphinx_gherkindoc.html#module-sphinx_gherkindoc.utils">sphinx_gherkindoc.utils module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sphinx_gherkindoc.html#module-sphinx_gherkindoc.writer">sphinx_gherkindoc.writer module</a></li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="sample-gherkindoc.html">Sample Gherkin</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="tests.basic.feature-file.html">Feature: Testing Sphinx Writer</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="tests.basic.feature-file.html#background-some-requirements-for-this-test">Background: Some requirements for this test</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tests.basic.feature-file.html#scenario-test-a-scenario">Scenario: Test a Scenario</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tests.basic.feature-file.html#scenario-outline-test-a-scenario-outline">Scenario Outline: Test a Scenario Outline</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="tests.basic.feature-file.html#examples-fruit">Examples: Fruit</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="tests.basic.feature-file.html#scenario-text-and-table-scenario">Scenario: Text and Table Scenario</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tests.basic.feature-file.html#scenario-normal-scenarios-with-add-on-steps-and-but-have-those-add-on-steps-indented">Scenario: Normal scenarios with add on steps (And, But) have those add on steps indented</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tests.basic.feature-file.html#scenario-indentation-is-ignored-when-any-step-in-the-scenario-has-text-or-a-table">Scenario: Indentation is ignored when any step in the scenario has text or a table</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="tests.tags.feature-file.html">Feature: Testing Sphinx Writer</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="tests.tags.feature-file.html#background-some-requirements-for-this-test">Background: Some requirements for this test</a></li>
+<li class="toctree-l3"><a class="reference internal" href="tests.tags.feature-file.html#scenario-test-a-scenario">Scenario: Test a Scenario</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="sample-gherkindoc-integrated-background.html">Sample Gherkin With Integrated Background</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="sample-gherkindoc-integrated-background-default.html">Default Behavior</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="default_format.integrated_backgrounds.feature-file.html">Feature: Integrated Backgrounds</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="default_format.integrated_backgrounds.feature-file.html#scenario-first-scenario">Scenario: First Scenario</a></li>
+<li class="toctree-l4"><a class="reference internal" href="default_format.integrated_backgrounds.feature-file.html#scenario-second-scenario">Scenario: Second Scenario</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="sample-gherkindoc-integrated-background-unique-format.html">Unique Background</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="unique_format.integrated_backgrounds_with_unique_format.feature-file.html">Feature: Integrated Backgrounds With Unique Format</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="unique_format.integrated_backgrounds_with_unique_format.feature-file.html#scenario-first-scenario">Scenario: First Scenario</a></li>
+<li class="toctree-l4"><a class="reference internal" href="unique_format.integrated_backgrounds_with_unique_format.feature-file.html#scenario-second-scenario">Scenario: Second Scenario</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Sample Gherkin Glossary</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Maintainers</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="MAINTAINER.html">Maintainer’s Documentation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="MAINTAINER.html#top-level-scripts">Top-level scripts:</a></li>
+<li class="toctree-l2"><a class="reference internal" href="MAINTAINER.html#bin-scripts"><code class="docutils literal notranslate"><span class="pre">bin/</span></code> scripts:</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="CONTRIBUTORS.html">Contributors</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">sphinx-gherkindoc</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content style-external-links">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Sample Gherkin Glossary</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/sample-gherkindoc-glossary.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="sample-gherkin-glossary">
+<h1>Sample Gherkin Glossary<a class="headerlink" href="#sample-gherkin-glossary" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="#term-encarnaciooooon"><span class="xref std std-term">Encarnaciooooon</span></a></p></li>
+<li><p><a class="reference internal" href="#term-i-put-thing-in-a-blender"><span class="xref std std-term">I put &lt;thing&gt; in a blender</span></a></p></li>
+<li><p><a class="reference internal" href="#term-i-turn-the-blender-on"><span class="xref std std-term">I turn the blender on</span></a></p></li>
+<li><p><a class="reference internal" href="#term-a-step-with-some-text"><span class="xref std std-term">a step with some text</span></a></p></li>
+<li><p><a class="reference internal" href="#term-a-test-feature"><span class="xref std std-term">a test feature</span></a></p></li>
+<li><p><a class="reference internal" href="#term-all-the-children-are-gone"><span class="xref std std-term">all the children are gone</span></a></p></li>
+<li><p><a class="reference internal" href="#term-an-and-step-with-some-text-too"><span class="xref std std-term">an And step with some text too</span></a></p></li>
+<li><p><a class="reference internal" href="#term-another-indented-thing-happened"><span class="xref std std-term">another indented thing happened</span></a></p></li>
+<li><p><a class="reference internal" href="#term-doodle-doodle-doodle-doo"><span class="xref std std-term">doodle-doodle-doodle-doo</span></a></p></li>
+<li><p><a class="reference internal" href="#term-how-about-a-table-in-there-too"><span class="xref std std-term">how about a table in there too</span></a></p></li>
+<li><p><a class="reference internal" href="#term-it-should-transform-into-other-thing"><span class="xref std std-term">it should transform into &lt;other thing&gt;</span></a></p></li>
+<li><p><a class="reference internal" href="#term-something-deep-inside-me"><span class="xref std std-term">something deep inside me</span></a></p></li>
+<li><p><a class="reference internal" href="#term-something-else-that-is-indented"><span class="xref std std-term">something else that IS indented</span></a></p></li>
+<li><p><a class="reference internal" href="#term-something-indented-also-happened"><span class="xref std std-term">something indented also happened</span></a></p></li>
+<li><p><a class="reference internal" href="#term-something-not-indented"><span class="xref std std-term">something not indented</span></a></p></li>
+<li><p><a class="reference internal" href="#term-something-not-indented-happened"><span class="xref std std-term">something not indented happened</span></a></p></li>
+<li><p><a class="reference internal" href="#term-something-not-indented-happens"><span class="xref std std-term">something not indented happens</span></a></p></li>
+<li><p><a class="reference internal" href="#term-step-text"><span class="xref std std-term">step text</span></a></p></li>
+<li><p><a class="reference internal" href="#term-that-this-file-exists"><span class="xref std std-term">that this file exists</span></a></p></li>
+<li><p><a class="reference internal" href="#term-the-fantasy-has-ended"><span class="xref std std-term">the fantasy has ended</span></a></p></li>
+<li><p><a class="reference internal" href="#term-the-file-is-converted-into-rst"><span class="xref std std-term">the file is converted into rST</span></a></p></li>
+<li><p><a class="reference internal" href="#term-the-suite-reaches-a-scenario"><span class="xref std std-term">the suite reaches a scenario</span></a></p></li>
+<li><p><a class="reference internal" href="#term-the-suite-reaches-a-scenario-table"><span class="xref std std-term">the suite reaches a scenario table</span></a></p></li>
+</ul>
+<dl class="glossary">
+<dt id="term-the-file-is-converted-into-rst">the file is converted into rST</dt><dd><div class="line-block">
+<div class="line">tests/basic.feature 15, 41</div>
+<div class="line">tests/tags.feature 16</div>
+</div>
+</dd>
+<dt id="term-that-this-file-exists">that this file exists</dt><dd><div class="line-block">
+<div class="line">tests/basic.feature 6</div>
+<div class="line">tests/tags.feature 7</div>
+</div>
+</dd>
+<dt id="term-a-test-feature">a test feature</dt><dd><div class="line-block">
+<div class="line">tests/basic.feature 13</div>
+<div class="line">tests/tags.feature 14</div>
+</div>
+</dd>
+<dt id="term-the-suite-reaches-a-scenario">the suite reaches a scenario</dt><dd><div class="line-block">
+<div class="line">tests/basic.feature 14</div>
+<div class="line">tests/tags.feature 15</div>
+</div>
+</dd>
+<dt id="term-i-put-thing-in-a-blender">I put &lt;thing&gt; in a blender</dt><dd><div class="line-block">
+<div class="line">tests/basic.feature 19</div>
+</div>
+</dd>
+<dt id="term-i-turn-the-blender-on">I turn the blender on</dt><dd><div class="line-block">
+<div class="line">tests/basic.feature 20</div>
+</div>
+</dd>
+<dt id="term-it-should-transform-into-other-thing">it should transform into &lt;other thing&gt;</dt><dd><div class="line-block">
+<div class="line">tests/basic.feature 21</div>
+</div>
+</dd>
+<dt id="term-step-text">step text</dt><dd><div class="line-block">
+<div class="line">tests/basic.feature 32</div>
+</div>
+</dd>
+<dt id="term-the-suite-reaches-a-scenario-table">the suite reaches a scenario table</dt><dd><div class="line-block">
+<div class="line">tests/basic.feature 36</div>
+</div>
+</dd>
+<dt id="term-something-not-indented">something not indented</dt><dd><div class="line-block">
+<div class="line">tests/basic.feature 45</div>
+</div>
+</dd>
+<dt id="term-something-else-that-is-indented">something else that IS indented</dt><dd><div class="line-block">
+<div class="line">tests/basic.feature 46</div>
+</div>
+</dd>
+<dt id="term-something-not-indented-happens">something not indented happens</dt><dd><div class="line-block">
+<div class="line">tests/basic.feature 47</div>
+</div>
+</dd>
+<dt id="term-something-not-indented-happened">something not indented happened</dt><dd><div class="line-block">
+<div class="line">tests/basic.feature 48</div>
+</div>
+</dd>
+<dt id="term-something-indented-also-happened">something indented also happened</dt><dd><div class="line-block">
+<div class="line">tests/basic.feature 49</div>
+</div>
+</dd>
+<dt id="term-another-indented-thing-happened">another indented thing happened</dt><dd><div class="line-block">
+<div class="line">tests/basic.feature 50</div>
+</div>
+</dd>
+<dt id="term-a-step-with-some-text">a step with some text</dt><dd><div class="line-block">
+<div class="line">tests/basic.feature 54</div>
+</div>
+</dd>
+<dt id="term-an-and-step-with-some-text-too">an And step with some text too</dt><dd><div class="line-block">
+<div class="line">tests/basic.feature 58</div>
+</div>
+</dd>
+<dt id="term-how-about-a-table-in-there-too">how about a table in there too</dt><dd><div class="line-block">
+<div class="line">tests/basic.feature 62</div>
+</div>
+</dd>
+<dt id="term-the-fantasy-has-ended">the fantasy has ended</dt><dd><div class="line-block">
+<div class="line">tests/basic.feature 67</div>
+</div>
+</dd>
+<dt id="term-all-the-children-are-gone">all the children are gone</dt><dd><div class="line-block">
+<div class="line">tests/basic.feature 68</div>
+</div>
+</dd>
+<dt id="term-something-deep-inside-me">something deep inside me</dt><dd><div class="line-block">
+<div class="line">tests/basic.feature 69</div>
+</div>
+</dd>
+<dt id="term-encarnaciooooon">Encarnaciooooon</dt><dd><div class="line-block">
+<div class="line">tests/basic.feature 73</div>
+</div>
+</dd>
+<dt id="term-doodle-doodle-doodle-doo">doodle-doodle-doodle-doo</dt><dd><div class="line-block">
+<div class="line">tests/basic.feature 74</div>
+</div>
+</dd>
+</dl>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="MAINTAINER.html" class="btn btn-neutral float-right" title="Maintainer’s Documentation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="unique_format.integrated_backgrounds_with_unique_format.feature-file.html" class="btn btn-neutral float-left" title="Feature: Integrated Backgrounds With Unique Format" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2018, Lewis Franklin &amp; Doug Philips
+      
+        <span class="build">
+          Build
+          <a href="https://github.rackspace.com///github.com/jolly-good-toolbelt/sphinx_gherkindoc/tree/d21355619bc8bdc8237ce4be612a90a8d5c05fa9">d21355619bc8bdc8237ce4be612a90a8d5c05fa9</a>.
+        </span>
+      
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
